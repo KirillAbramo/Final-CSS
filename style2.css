@@ -1,0 +1,1142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url(Open_Sans/OpenSans-Light.ttf);
+}
+
+
+.sectionHeader {
+    max-width: 2400px;
+    height: 850px;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-position-x: -350px;
+    background-position-y: -481px;
+    border: 1px solid transparent;
+    position: relative;
+
+
+}
+
+#cont-header {
+    width: 960px;
+    margin: auto;
+    border: 1px solid transparent;
+}
+
+
+.headerTop {
+    height: 55px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.logo {
+    width: 153px;
+    height: 55px;
+    margin-left: 50px;
+    float: left;
+}
+
+#menu2 {
+    display: none;
+}
+
+.menu {
+    width: 628px;
+    height: 26px;
+    float: right;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.men {
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.72px;
+    text-transform: uppercase;
+}
+
+#menu3 {
+    display: none;
+}
+
+#selected {
+    position: absolute;
+    top: 42px;
+    left: 328px;
+}
+
+.sectionSlider {
+    max-width: 2400px;
+    height: 400px;
+    background-image: url(images/overlay.png);
+    position: relative;
+}
+
+#cont-slider {
+    width: 960px;
+    margin: auto;
+}
+
+.slider {
+
+    height: 400px;
+    margin-top: 172px;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.lorem {
+    width: 455px;
+    height: 235px;
+    margin-top: 83px;
+    margin-left: 40px;
+
+}
+
+.lorem-headtext {
+    color: #fefefe;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 8px;
+}
+
+.lorem-2headtext {
+    color: #edbfff;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 36px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.lorem-text {
+    font-family: 'Open Sans Light';
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.iphone1 {
+    position: absolute;
+    top: 71px;
+    right: 235px;
+}
+
+.iphone2 {
+    position: absolute;
+    top: -7px;
+    right: 85px;
+    border: 1px dotted transparent;
+}
+
+.iphone3 {
+    display: none;
+}
+
+.shape {
+    position: absolute;
+    top: 147px;
+    right: 62px;
+}
+
+.ellipse {
+    position: absolute;
+    top: 160px;
+    right: 75px;
+}
+
+.shape15 {
+    position: absolute;
+    top: 172px;
+    right: 85px;
+}
+
+.dots-cont {
+    width: 83px;
+    height: 17px;
+    position: absolute;
+    bottom: -80px;
+    right: 170px;
+    background-image: url(images/source_of_icons.png);
+    background-position: -57px -1px;
+
+}
+
+.sectionMain {
+    max-width: 2400px;
+    background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+    background-repeat: no-repeat;
+}
+
+#cont-main {
+    width: 960px;
+    height: 342px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+
+.about {
+    width: 278px;
+    height: 190px;
+    margin-top: 80px;
+    position: relative;
+}
+
+#l34 {
+    padding-top: 10px;
+    margin-left: -5px;
+
+}
+
+h2 {
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 42px;
+    top: 5px;
+}
+
+p {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: 'Open Sans Light';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-left: 42px;
+
+}
+
+#read-more {
+    position: absolute;
+    bottom: -5px;
+    right: 5px;
+}
+
+#read-more2 {
+    position: absolute;
+    bottom: -10px;
+    right: 5px;
+}
+
+.sectionMore {
+    max-width: 2400px;
+    height: 590px;
+    background-color: #f9f9f9;
+}
+
+#cont-more {
+    width: 960px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    border: 1px solid transparent;
+
+}
+
+#starts {
+    padding-top: 20px;
+    padding-left: 30px;
+    position: relative;
+    top: 60px;
+    left: 60px;
+    background-image: url(images/Layer_60.png);
+    width: 427px;
+    height: 292px;
+    text-shadow: 1px 1px 0 #ffffff;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+.sprite1 {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    top: 10px;
+    left: -22px;
+    background-image: url(images/source_of_icons.png);
+    background-position: -5px 50px;
+}
+
+#starts-here {
+    width: 346px;
+    height: 161px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: none;
+}
+
+.dots-cont2 {
+    width: 83px;
+    height: 17px;
+    position: absolute;
+    top: 350px;
+    left: 225px;
+    background-image: url(images/source_of_icons.png);
+    background-position: -57px -20px;
+
+}
+
+#blog {
+    width: 454px;
+    height: 261px;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+#recent {
+    width: 236px;
+    height: 22px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+#upd {
+    width: 451px;
+    height: 49px;
+    position: absolute;
+    top: 45px;
+}
+
+.sprite2 {
+    width: 49px;
+    height: 49px;
+    float: left;
+    background-image: url(images/source_of_icons.png);
+    background-position: -75px 115px;
+}
+
+#upd-text {
+    width: 390px;
+    height: 41px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #454545;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: none;
+}
+
+#upd2 {
+    width: 451px;
+    height: 49px;
+    position: absolute;
+    top: 105px;
+}
+
+#upd3 {
+    width: 451px;
+    height: 49px;
+    position: absolute;
+    top: 165px;
+}
+
+#more-here {
+    width: 82px;
+    height: 4px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+
+.hrr {
+    position: relative;
+    top: 190px;
+
+
+}
+
+#logos-cont {
+    height: 65px;
+    position: absolute;
+    top: 503px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#logos-cont2 {
+    display: none;
+}
+
+.sectionFooter {
+    max-width: 2400px;
+    height: 404px;
+    background-color: #ececec;
+}
+
+#cont-footer {
+    width: 960px;
+    margin: auto;
+    border: 1px solid transparent;
+    position: relative;
+
+}
+
+#foots-cont {
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+#foot1 {
+    width: 277px;
+    height: 222px;
+    position: relative;
+}
+
+#foot2 {
+    width: 277px;
+    height: 201px;
+}
+
+#foot3,
+#foot4,
+#foot5 {
+    width: 277px;
+    height: 201px;
+}
+
+#foot4,
+#foot5 {
+    display: none;
+}
+
+#f1-logo {
+    position: relative;
+}
+
+#f11-logo {
+    position: absolute;
+    top: -20px;
+    left: 72px;
+}
+
+#f111-logo {
+    position: absolute;
+    top: 18px;
+}
+
+#copyr {
+    position: absolute;
+    top: 58px;
+}
+
+#f1-text {
+    width: 277px;
+    height: 113px;
+    position: absolute;
+    top: 75px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #787878;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+#f2-head,
+#f3-head {
+    width: 205px;
+    height: 22px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+#f2-text,
+#f3-text {
+    width: 277px;
+    height: 161px;
+    padding-top: 34px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #787878;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+#foots-end {
+    position: absolute;
+    top: 400px;
+}
+
+.sectionSubFooter {
+    max-width: 2400px;
+    height: 100px;
+    position: relative;
+    top: 150px;
+    background-image: url(images/bg_copy.png);
+}
+
+
+#cont-subFooter {
+    width: 960px;
+    height: 200px;
+}
+
+#footer-menu {
+    width: 528px;
+    height: 15px;
+    position: absolute;
+    top: 30px;
+    left: 328px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer-m {
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+#footer-sign {
+    width: 137px;
+    height: 13px;
+    position: absolute;
+    top: 43px;
+    right: 70px;
+}
+
+
+@media all and (max-width: 1000px) {
+    #cont-header {
+        width: 750px;
+    }
+
+    .sectionHeader {
+        background-position-x: -690px;
+        background-position-y: -481px;
+    }
+
+    #selected {
+        position: absolute;
+        top: 92px;
+        left: 47px;
+    }
+
+    .lorem {
+        width: 275px;
+        height: 225px;
+        margin-top: 83px;
+        margin-left: 40px;
+        overflow: hidden;
+    }
+
+    .lorem-headtext {
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    .lorem-2headtext {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    .menu {
+        margin-right: 70px;
+    }
+
+    #menu3 {
+        display: none;
+    }
+
+    .dots-cont {
+        width: 83px;
+        height: 17px;
+        background-image: url(images/source_of_icons.png);
+        background-position: -57px -1px;
+
+    }
+
+    #read-more {
+        position: absolute;
+        bottom: -25px;
+        right: 5px;
+    }
+
+    #read-more2 {
+        position: absolute;
+        bottom: -35px;
+        right: 5px;
+    }
+
+    #cont-slider {
+        width: 750px;
+    }
+
+    #cont-main {
+        width: 750px;
+    }
+
+    #cont-more {
+        width: 750px;
+    }
+
+    #cont-footer {
+        width: 750px;
+    }
+
+    #cont-subFooter {
+        width: 750px;
+    }
+
+    #starts {
+        position: relative;
+        top: 60px;
+        left: 10px;
+        width: 315px;
+        height: 274px;
+        font-size: 24px;
+    }
+
+    #starts-here {
+        overflow: hidden;
+        width: 248px;
+        height: 177px;
+        padding-top: 10px;
+        text-shadow: 1px 1px 0 #ffffff;
+        color: #454545;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        text-transform: none;
+    }
+
+    .dots-cont2 {
+        position: absolute;
+        top: 350px;
+        left: 125px;
+    }
+
+    #blog {
+        width: 404px;
+        height: 221px;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+    }
+
+    #upd-text {
+        width: 320px;
+        line-height: 22px;
+        overflow: hidden;
+    }
+
+    #more-here {
+        position: absolute;
+        right: 63px;
+        bottom: -20px;
+    }
+
+    #foot1,
+    #foot2 {
+        display: none;
+    }
+
+    #foot3,
+    #foot4,
+    #foot5 {
+        display: block;
+    }
+
+    #f3-text {
+        width: 200px;
+        height: 160px;
+        overflow: hidden;
+    }
+
+    #footer-menu {
+        position: absolute;
+        top: 30px;
+        left: 110px;
+    }
+
+    #footer-sign {
+        position: absolute;
+        top: 63px;
+        right: 150px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    #cont-header {
+        width: 450px;
+    }
+
+    #cont-slider {
+        width: 450px;
+    }
+
+    #cont-main {
+        width: 450px;
+        height: 850px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #cont-more {
+        width: 450px;
+        height: 810px;
+    }
+
+    #cont-footer {
+        width: 450px;
+    }
+
+    #cont-subFooter {
+        width: 450px;
+    }
+
+    .sectionHeader {
+        background-position-x: -860px;
+    }
+
+    #selected {
+        position: absolute;
+        top: 102px;
+        left: 202px;
+        z-index: 4;
+    }
+
+    .lorem {
+        width: 275px;
+        height: 225px;
+        margin-top: 103px;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+
+    .lorem-headtext {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    .lorem-2headtext {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: -15px;
+    }
+
+    .lorem-text {
+        display: none;
+    }
+
+    #menu2 {
+        display: block;
+        position: relative;
+        z-index: 1;
+        top: 20px;
+        left: 100px;
+    }
+
+    #menu22 {
+        position: absolute;
+        top: 100px;
+        left: 4px;
+        z-index: 2;
+    }
+
+    #menu23 {
+        position: absolute;
+        top: 70px;
+        left: 74px;
+        z-index: 3;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #menu3 {
+        display: none;
+    }
+
+    .logo {
+        width: 153px;
+        height: 55px;
+        margin-left: 152px;
+        float: left;
+    }
+
+    .iphone1,
+    .iphone2 {
+        display: none;
+    }
+
+    .iphone3 {
+        display: block;
+        position: relative;
+        left: 230px;
+        top: -340px;
+    }
+
+    .sectionSlider {
+        height: 250px;
+        position: relative;
+        top: -130px;
+    }
+
+    .dots-cont {
+        position: absolute;
+        bottom: 80px;
+        left: 190px;
+    }
+
+    .about {
+        width: 378px;
+        height: 190px;
+    }
+
+    .sectionMore {
+        max-width: 2400px;
+        height: 810px;
+        background-color: #f9f9f9;
+        border: 3px solid transparent;
+    }
+
+
+    #starts {
+        position: relative;
+        top: 20px;
+        left: 20px;
+        width: 418px;
+        height: 274px;
+    }
+
+    #blog {
+        width: 415px;
+        height: 261px;
+        border: 1px solid transparent;
+        position: absolute;
+        top: 350px;
+        left: 43px;
+    }
+
+    .dots-cont2 {
+        position: absolute;
+        top: 320px;
+        left: 180px;
+    }
+
+    #logos-cont {
+        display: none;
+    }
+
+    #logos-cont2 {
+        display: block;
+        position: relative;
+        top: 365px;
+        left: 55px;
+    }
+
+    .hrr {
+        position: relative;
+        top: 360px;
+    }
+
+    #more-here {
+        position: absolute;
+        right: 63px;
+        bottom: 0px;
+    }
+
+    #foots-cont {
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-left: 40px;
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    #foot2,
+    #foot3,
+    #foot4 {
+        width: 470px;
+        height: 100px;
+    }
+
+    #f3-text {
+        width: 440px;
+        height: 85px;
+        font-size: 16px;
+        overflow: hidden;
+    }
+
+    .sectionFooter {
+        height: 504px;
+    }
+
+    #foots-end {
+        display: none;
+    }
+
+    .sectionSubFooter {
+        height: 130px;
+        position: relative;
+        top: 22px;
+    }
+
+    #footer-sign {
+        top: 83px;
+        left: 282px;
+    }
+}
+
+
+@media all and (max-width: 480px) {
+    #cont-header {
+        width: 96%;
+    }
+
+    #cont-slider {
+        width: 96%;
+    }
+
+    #cont-main {
+        width: 96%;
+        height: 700px;
+        margin-top: -40px;
+    }
+
+    #cont-more {
+        width: 96%;
+        height: 810px;
+    }
+
+    #cont-footer {
+        width: 96%;
+    }
+
+    #cont-subFooter {
+        width: 96%;
+    }
+
+    .sectionHeader {
+        background-position-x: -880px;
+    }
+
+    .logo {
+        margin-left: 130px;
+
+    }
+
+    #menu2 {
+        display: none;
+        position: relative;
+        z-index: 1;
+        top: 20px;
+        left: 100px;
+    }
+
+    #menu3 {
+        display: block;
+        position: relative;
+        top: 80px;
+        right: 100px;
+    }
+
+    .iphone3 {
+        display: none;
+    }
+
+    .lorem {
+        width: 275px;
+        height: 225px;
+        margin-top: 83px;
+        margin-left: 108px;
+        overflow: hidden;
+
+    }
+
+    .lorem-headtext {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    .lorem-2headtext {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: -15px;
+        margin-left: -33px;
+    }
+
+    #selected {
+        top: 100px;
+        left: 185px;
+    }
+
+    .dots-cont {
+        bottom: -20px;
+        left: 175px;
+
+    }
+
+    .sectionSlider {
+        background: none;
+    }
+
+    .about {
+        width: 240px;
+        height: 122px;
+        overflow: hidden;
+
+    }
+
+    h2 {
+        font-size: 26px;
+
+    }
+
+    .about>p {
+        padding-left: 42px;
+        margin-top: -15px;
+
+    }
+
+    #l34 {
+        margin-left: 0px;
+
+    }
+
+    #read-more {
+        position: absolute;
+        bottom: -5px;
+        right: 5px;
+    }
+
+    #read-more2 {
+        position: absolute;
+        bottom: -10px;
+        right: 5px;
+    }
+
+    #starts {
+        left: 80px;
+        width: 275px;
+        height: 274px;
+
+    }
+
+    #blog {
+        width: 275px;
+        height: 275px;
+
+    }
+
+    #more-here {
+
+        left: 233px;
+        bottom: 40px;
+    }
+
+    #upd-text {
+        width: 270px;
+        line-height: 22px;
+        overflow: hidden;
+    }
+
+    #foots-cont {
+        display: none;
+    }
+
+    #footer-menu {
+        display: none;
+    }
+
+    #footer-sign {
+        top: 43px;
+        left: 145px;
+    }
+
+    .sectionSubFooter {
+        top: 0px;
+    }
+
+    #logos-cont2 {
+        left: 25px;
+    }
+}
